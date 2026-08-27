@@ -11,10 +11,10 @@
 
 | Project | Stack | Type | Live |
 |---|---|---|---|
-| [🏥 Health & Fitness Booking Platform](#-health--fitness-booking-platform) | Next.js · AWS ECS · RDS · Terraform | Full Stack + DevSecOps | [Demo 1](https://loom.com/share/deb83c6d095744ad9b8379a9081086de) · [Demo 2](https://loom.com/share/5eadbfc7a18d4201b) |
+| [🏥 Health & Fitness Booking Platform](#-health--fitness-booking-platform) | Next.js · AWS ECS · RDS · Terraform | Full Stack + DevSecOps | [Demo](https://loom.com/share/deb83c6d095744ad9b8379a9081086de) |
 | [🍽️ Serverless Food Ordering Platform](#-serverless-food-ordering-platform) | Vue 3 · Lambda · DynamoDB · SNS/SQS | Serverless + DevSecOps | [Demo](https://loom.com/share/d52573db16ca434ab8f77a9aaece8466) |
-| [📦 Order Management System](#-order-management-system) | Node.js · Express · Vue 3 | Full Stack REST API | [Live](https://ordering-theta-neon.vercel.app) |
-| [💬 WhatsApp Clone](#-whatsapp-clone) | Next.js · Firebase · Realtime | Real-time Messaging | [Live](https://whatsapp-clone-three-teal.vercel.app) |
+| [📦 Order Management System](#-order-management-system) | Node.js · Express · Vue 3 | Full Stack REST API | [GitHub](https://github.com/gindriliunas/Ordering) |
+| [💬 WhatsApp Clone](#-whatsapp-clone) | Next.js · Firebase · Realtime | Real-time Messaging | [GitHub](https://github.com/gindriliunas/whatsapp-clone) |
 
 ---
 
@@ -22,7 +22,7 @@
 
 > A production-grade multi-tenant booking platform for health and fitness professionals — built on AWS with a full DevSecOps CI/CD pipeline integrated at every stage.
 
-📹 **[Demo 1 — Provider Dashboard](https://loom.com/share/deb83c6d095744ad9b8379a9081086de)** · **[Demo 2 — Client Portal](https://loom.com/share/5eadbfc7a18d4201b)**
+📹 **[Demo — Provider Dashboard & Booking Flow](https://loom.com/share/deb83c6d095744ad9b8379a9081086de)**
 🔗 **[github.com/gindriliunas/booking-platform](https://github.com/gindriliunas/booking-platform)**
 
 ### Architecture
@@ -150,7 +150,7 @@ GitHub Actions · tfsec · npm audit · Jest
 
 > A full-stack order management system with a Node.js/Express REST API and Vue 3 frontend — featuring comprehensive server-side validation, order history, and product catalogue integration.
 
-🔗 **[Live Demo](https://ordering-theta-neon.vercel.app)** · **[github.com/gindriliunas/Ordering](https://github.com/gindriliunas/Ordering)**
+🔗 **[github.com/gindriliunas/Ordering](https://github.com/gindriliunas/Ordering)**
 
 ### Application Flow
 
@@ -211,7 +211,7 @@ In-memory storage · Vercel deployment
 
 > A real-time messaging web app built with Next.js and Firebase — featuring Google authentication, live Firestore listeners, and a responsive UI that matches WhatsApp Web.
 
-🔗 **[Live Demo](https://whatsapp-clone-three-teal.vercel.app)** · **[github.com/gindriliunas/whatsapp-clone](https://github.com/gindriliunas/whatsapp-clone)**
+🔗 **[github.com/gindriliunas/whatsapp-clone](https://github.com/gindriliunas/whatsapp-clone)**
 
 ### Real-time Architecture
 
