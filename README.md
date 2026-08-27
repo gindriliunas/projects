@@ -258,6 +258,23 @@ Vercel · Cursor IDE
 
 ---
 
+## 🧪 Security Labs
+
+Hands-on cybersecurity labs covering real-world attack and defence scenarios — using Splunk, Nessus, Wireshark, Burp Suite, and Jira.
+
+👉 **[Full lab portfolio — github.com/gindriliunas/Gintas-Indriliunas](https://github.com/gindriliunas/Gintas-Indriliunas)**
+
+| Lab | Focus | Tools | Video |
+|---|---|---|---|
+| Lab 1 — SIEM Setup & Monitoring | Splunk alert rules, failed login detection, log clearing simulation | Splunk, Windows Event Manager | [▶ Watch](https://www.youtube.com/watch?v=QhVx4lV4IQk) |
+| Lab 2 — Vulnerability Scanning | Network asset mapping, 14 high-risk CVEs discovered, remediation | Nessus | [▶ Watch](https://www.youtube.com/watch?v=1aIY9tGRVtM) |
+| Lab 3 — Network Traffic Analysis | Suspicious outbound traffic, compromised VM, data exfiltration | Wireshark, Tcpdump | — |
+| Lab 4 — Web Application Attacks | SQL injection, XSS exploitation, secure coding countermeasures | Kali Linux, Burp Suite | — |
+| Lab 5 — Phishing Incident Response | Spear phishing simulation, root cause analysis, incident report | Email forensics | [▶ Watch](https://youtu.be/7m7Va6tINVE) |
+| Lab 6 — Jira SOC Ticket Workflow | SOC ticket lifecycle, detection → triage → remediation → closure | Jira | — |
+
+---
+
 ## 🔐 Security Approach
 
 All projects follow a shift-left security philosophy — security checks integrated into the development workflow, not bolted on after:
