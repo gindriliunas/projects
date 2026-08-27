@@ -293,3 +293,181 @@ graph LR
 | TypeScript | All Projects |
 | AI-assisted Development | WhatsApp Clone |
 
+---
+
+*Built by Gintas Indriliunas · [linkedin.com/in/gintas-indriliunas-75778b51](https://linkedin.com/in/gintas-indriliunas-75778b51)*
+
+---
+
+## 🌐 Client Websites
+
+Production websites built for real businesses — designed, developed, and deployed end-to-end using Next.js, Tailwind CSS, GoHighLevel CRM integration, SEO, and Meta/Google Ads.
+
+| Business | Industry | Tech | Live |
+|---|---|---|---|
+| [Skills 42U](#-skills-42u) | First Aid Training | Next.js · GoHighLevel · CRM | [skills42u.com](https://www.skills42u.com) |
+| [Leaf It Out](#-leaf-it-out) | Landscaping | Next.js · Tailwind | [leaf-it-out.co.uk](https://www.leaf-it-out.co.uk) |
+| [A Cut Above](#-a-cut-above) | Hair Salon & Aesthetics | Next.js · Tailwind | [acutabovehairsalon.co.uk](https://www.acutabovehairsalon.co.uk) |
+| [Plumbing Boss](#-plumbing-boss) | Plumbing & Heating | Next.js · GoHighLevel · CRM | [plumbingboss.co.uk](https://plumbingboss.co.uk) |
+| [GI Training](#-gi-training) | Personal Training | Next.js · Tailwind | [gitraining.co.uk](https://www.gitraining.co.uk) |
+
+---
+
+### 🏥 Skills 42U
+
+> Accredited first aid training for Kent businesses — delivered on-site. HSE-compliant, Ofqual-regulated.
+
+**[skills42u.com](https://www.skills42u.com)**
+
+```mermaid
+graph LR
+    A[Next.js Website] --> B[GoHighLevel CRM]
+    A --> C[Enquiry Forms]
+    B --> D[Lead Capture]
+    B --> E[Booking Automation]
+    A --> F[SEO Landing Pages\nper Kent location]
+    A --> G[Interactive\nRisk Calculator]
+
+    style A fill:#0EA5E9,color:#fff
+    style B fill:#10B981,color:#fff
+    style F fill:#8B5CF6,color:#fff
+    style G fill:#F59E0B,color:#fff
+```
+
+**Key features:**
+- Interactive workplace risk calculator — HSE 2024/25 data by industry and team size
+- Location-specific SEO landing pages — Medway, Maidstone, Dartford, Ashford, Tunbridge Wells
+- GoHighLevel CRM integration — lead capture, automated follow-up, booking confirmation
+- Competitor comparison table — transparent pricing vs other Kent providers
+- 600+ courses delivered across Kent and South East
+
+---
+
+### 🌿 Leaf It Out
+
+> Family run landscaping business serving Medway and Kent for 15+ years — driveways, patios, garden transformations.
+
+**[leaf-it-out.co.uk](https://www.leaf-it-out.co.uk)**
+
+```mermaid
+graph LR
+    A[Next.js Website] --> B[Service Pages\nDriveways · Patios · Gardens]
+    A --> C[Photo Gallery]
+    A --> D[Checkatrade\nIntegration]
+    A --> E[Contact Forms\nLead Capture]
+    A --> F[SEO\nLocation Pages]
+
+    style A fill:#10B981,color:#fff
+    style D fill:#F59E0B,color:#fff
+    style F fill:#8B5CF6,color:#fff
+```
+
+**Key features:**
+- Full project gallery — before/after transformations across Kent
+- Checkatrade approved badge and independently verified reviews
+- Location SEO — Chatham, Rochester, Gillingham, Maidstone, and surrounding areas
+- Service pages — driveways, block paving, patios, natural stone, decking, fencing, water features
+- Mobile-first responsive design with fast loading image optimisation
+
+---
+
+### ✂️ A Cut Above
+
+> Unisex hair salon and BA Aesthetics clinic in Chatham, Medway — hair colouring, balayage, barber services, and medical aesthetics.
+
+**[acutabovehairsalon.co.uk](https://www.acutabovehairsalon.co.uk)**
+
+```mermaid
+graph LR
+    A[Next.js Website] --> B[Hair Services]
+    A --> C[BA Aesthetics\nby Dentist]
+    A --> D[Before & After\nGallery]
+    A --> E[Pricing\nTables]
+    A --> F[Booking\nContact Forms]
+
+    style A fill:#8B5CF6,color:#fff
+    style C fill:#EF4444,color:#fff
+    style D fill:#F59E0B,color:#fff
+```
+
+**Key features:**
+- Dual-service site — hair salon and medical aesthetics (lip fillers, botox, PRP, rhinoplasty)
+- Full before/after gallery — balayage, highlights, bridal, extensions, barber
+- Aesthetics pricing tables — Botox, facial filler, lip filler, skin boosters, PRP
+- Google Maps integration — Chatham ME5 location
+- Local SEO — Chatham, Rochester, Gillingham, Strood, Medway
+
+---
+
+### 🔧 Plumbing Boss
+
+> Gas Safe registered plumbers in Medway, Kent — boiler installation, emergency repairs, central heating.
+
+**[plumbingboss.co.uk](https://plumbingboss.co.uk)**
+
+```mermaid
+graph LR
+    A[Next.js Website] --> B[GoHighLevel CRM]
+    A --> C[Service Pages\nBoiler · Emergency · Heating]
+    A --> D[Location Pages\nper Medway area]
+    B --> E[Lead Capture\n& Automation]
+    A --> F[Google Reviews\nIntegration]
+
+    style A fill:#0EA5E9,color:#fff
+    style B fill:#10B981,color:#fff
+    style D fill:#8B5CF6,color:#fff
+    style F fill:#F59E0B,color:#fff
+```
+
+**Key features:**
+- Service-specific landing pages — boiler installation, plumbing repairs, heating engineer, emergency plumber
+- Location pages — Chatham, Rochester, Gillingham, Strood, Maidstone
+- GoHighLevel CRM — instant lead capture and follow-up automation
+- Google Reviews integration — 5-star verified reviews displayed
+- Worcester Bosch and Vaillant accredited installer badges
+
+---
+
+### 💪 GI Training
+
+> Online personal training and coaching — fat loss, strength training, nutrition, and behaviour change.
+
+**[gitraining.co.uk](https://www.gitraining.co.uk)**
+
+```mermaid
+graph LR
+    A[Next.js Website] --> B[Service Pages\nOnline · 1-to-1 · Group]
+    A --> C[Trainerize\nIntegration]
+    A --> D[Lead Forms\n& Enquiries]
+    A --> E[SEO\nLocal + National]
+
+    style A fill:#10B981,color:#fff
+    style C fill:#F59E0B,color:#fff
+    style E fill:#8B5CF6,color:#fff
+```
+
+**Key features:**
+- Online coaching services — 1-to-1 video, group video, Trainerize programme delivery
+- Nutrition and behaviour change coaching pages
+- 14 years of personal training experience showcased
+- Local SEO — Kent and Medway
+- Lead capture and consultation booking forms
+
+---
+
+### 🛠️ Website Tech Stack
+
+All client websites are built using the same production-grade stack:
+
+```
+Next.js 14 · React · TypeScript · Tailwind CSS
+GoHighLevel CRM (lead capture + automation) — Skills 42U, Plumbing Boss
+Vercel deployment · Custom domains · SSL
+Local SEO — location-specific landing pages per service area
+Google Analytics + Search Console integration
+Meta Ads + Google Ads campaign support
+```
+
+---
+
+*Built by Gintas Indriliunas · [viv-z.com](https://www.viv-z.com) · [linkedin.com/in/gintas-indriliunas-75778b51](https://linkedin.com/in/gintas-indriliunas-75778b51)*
