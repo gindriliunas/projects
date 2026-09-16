@@ -21,7 +21,7 @@
 
 ## Crypto Trading Dashboard — Azure DevSecOps
 
-> Paper-trading dashboard on **Azure** — Next.js, Postgres, Terraform, and a full shift-left CI/CD pipeline (SAST, SCA, secrets, IaC, container, DAST). Multi-cloud counterpart to the AWS booking platform.
+> Paper-trading dashboard on **Azure** — Next.js, Postgres, Terraform, and a full shift-left CI/CD pipeline (SAST, SCA, secrets, IaC, container, DAST). Azure Container Apps, live at dev.gindri.com, with the same shift-left security depth as the rest of the portfolio.
 
 **[Live — dev.gindri.com](https://dev.gindri.com)**  
 **[github.com/gindriliunas/crypto-trading](https://github.com/gindriliunas/crypto-trading)**
