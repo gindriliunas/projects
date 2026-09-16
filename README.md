@@ -11,12 +11,63 @@
 
 | Project | Stack | Type | Live |
 |---|---|---|---|
+| [Crypto Trading Dashboard](#-crypto-trading-dashboard--azure-devsecops) | Next.js · Azure Container Apps · Postgres · Terraform | Full Stack + DevSecOps (Azure) | [Live](https://dev.gindri.com) |
 | [🏥 Health & Fitness Booking Platform](#-health--fitness-booking-platform) | Next.js · AWS ECS · RDS · Terraform | Full Stack + DevSecOps | [Demo](https://loom.com/share/deb83c6d095744ad9b8379a9081086de) |
 | [🍽️ Serverless Food Ordering Platform](#-serverless-food-ordering-platform) | Vue 3 · Lambda · DynamoDB · SNS/SQS | Serverless + DevSecOps | [Demo](https://loom.com/share/d52573db16ca434ab8f77a9aaece8466) |
 | [📦 Order Management System](#-order-management-system) | Node.js · Express · Vue 3 | Full Stack REST API | [GitHub](https://github.com/gindriliunas/Ordering) |
 | [💬 WhatsApp Clone](#-whatsapp-clone) | Next.js · Firebase · Realtime | Real-time Messaging | [GitHub](https://github.com/gindriliunas/whatsapp-clone) |
 
 ---
+
+## Crypto Trading Dashboard — Azure DevSecOps
+
+> Paper-trading dashboard on **Azure** — Next.js, Postgres, Terraform, and a full shift-left CI/CD pipeline (SAST, SCA, secrets, IaC, container, DAST). Multi-cloud counterpart to the AWS booking platform.
+
+**[Live — dev.gindri.com](https://dev.gindri.com)**  
+**[github.com/gindriliunas/crypto-trading](https://github.com/gindriliunas/crypto-trading)**
+
+### Architecture
+
+```mermaid
+graph TD
+    A[User] -->|HTTPS| B[GoDaddy DNS / Container Apps]
+    B --> C[Next.js dashboard]
+    C -->|JWT + SQL| D[(Azure PostgreSQL)]
+    C -->|prices| E[CoinGecko]
+    F[GitHub Actions] -->|build/push| G[ACR]
+    G --> C
+    F -->|terraform| H[Blob tfstate]
+
+    style A fill:#4F46E5,color:#fff
+    style C fill:#10B981,color:#fff
+    style D fill:#F59E0B,color:#fff
+    style G fill:#0EA5E9,color:#fff
+```
+
+### DevSecOps Pipeline
+
+```mermaid
+flowchart LR
+    A[Code Push] --> B[Gitleaks + Trivy secrets]
+    B --> C[Trivy SCA]
+    C --> D[CodeQL SAST]
+    D --> E[Trivy + Checkov + tfsec]
+    E --> F[Trivy container]
+    F --> G[OWASP ZAP DAST]
+    G --> H[Deploy Azure]
+
+    style A fill:#374151,color:#fff
+    style H fill:#10B981,color:#fff
+```
+
+### Tech Stack
+
+```
+Next.js · TypeScript · Tailwind
+Azure Container Apps · ACR · PostgreSQL Flexible Server · Log Analytics
+Terraform · GitHub Actions · Dependabot
+CodeQL · Trivy · Checkov · tfsec · Gitleaks · OWASP ZAP
+```
 
 ## 🏥 Health & Fitness Booking Platform
 
@@ -299,10 +350,11 @@ graph LR
 
 | Skill | Projects |
 |---|---|
+| Azure Cloud Architecture           | Crypto Trading Dashboard |
 | AWS Cloud Architecture | Booking Platform, Food Ordering |
 | Serverless / Lambda | Food Ordering |
-| DevSecOps Pipelines | Booking Platform, Food Ordering |
-| Infrastructure as Code (Terraform) | Booking Platform, Food Ordering |
+| DevSecOps Pipelines                | Crypto Trading, Booking Platform, Food Ordering |
+| Infrastructure as Code (Terraform) | Crypto Trading, Booking Platform, Food Ordering |
 | Real-time Systems | WhatsApp Clone |
 | REST API Design | Ordering, Food Ordering |
 | Multi-tenant SaaS | Booking Platform |
